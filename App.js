@@ -5,7 +5,7 @@ import Countries from './Components/Countries';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Visiting Countries!
+      <Text style={styles.header}>Visiting Countries!
       </Text>
       <Countries/>
       <StatusBar style="auto" />
@@ -20,4 +20,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  header :{
+    marginTop:100,
+  }
 });
